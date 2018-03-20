@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'http://pmisarwala@localhost:7990/scm/dp/junitexample.git'
+      git 'https://github.com/pmisarwala/JunitExample.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
