@@ -2,9 +2,8 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
- when {
-                branch 'feature1'
-            }
+
+   branch 'feature1'
       git 'https://github.com/pmisarwala/JunitExample.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
